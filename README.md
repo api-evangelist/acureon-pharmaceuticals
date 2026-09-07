@@ -64,5 +64,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Acureon Pharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Acureon Pharmaceuticals, Inc. was a private United States biopharmaceutical company founded in 2006 in the western suburbs of Philadelphia (Berwyn / Wayne, Pennsylvania), focused on specialty therapeutics for hospital infectious disease, transplant and intensive care, backed by Domain Associates, New Enterprise Associates and Alta Partners.
+
+**The company is defunct.** It closed in 2008, filed nothing with the SEC after a single 2006 Form D (CIK 0001365869), and never published an API, SDK, developer program or machine-readable specification. Its former domain, `acureonpharma.com`, was re-registered by an unrelated party in November 2022 and now serves an unrelated "medical loans" content site — that site is **not** Acureon and nothing on it is profiled here. The 2006-2008 company site survives only in the Internet Archive.
+
+Surfaced via the API Evangelist harvest backlog (source: secondary-market). Coverage state: `none` / `defunct`.

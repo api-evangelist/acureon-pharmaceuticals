@@ -1,7 +1,16 @@
 aid: acureon-pharmaceuticals
 name: Acureon Pharmaceuticals
-description: 'Acureon Pharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Acureon Pharmaceuticals, Inc. was a private United States biopharmaceutical company founded in 2006
+  in the western suburbs of Philadelphia (Berwyn / Wayne, Pennsylvania), focused on specialty
+  therapeutics intended to improve patient outcomes in the hospital areas of infectious disease,
+  transplant and intensive care, by acquiring and commercializing novel and late-stage development
+  drugs. It was backed by Domain Associates, New Enterprise Associates and Alta Partners. The company
+  is defunct: it closed in 2008, filed nothing with the SEC after a single 2006 Form D (CIK
+  0001365869), and its former domain acureonpharma.com was re-registered by an unrelated party in
+  November 2022 and now serves an unrelated medical-loan content site. Acureon published no API,
+  developer program, SDK or machine-readable specification while it operated, and there is no
+  first-party surface left to profile.
 url: https://raw.githubusercontent.com/api-evangelist/acureon-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,12 +21,40 @@ created: '2026-09-06'
 modified: '2026-09-06'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Healthcare
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://www.nasdaqprivatemarket.com/
+common: []
+x-enrichment:
+  date: '2026-09-06'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Acureon closed in 2008 after two years as a venture-backed specialty pharma startup, and its
+    former domain acureonpharma.com was re-registered by an unrelated party in November 2022 and now
+    returns a WordPress "medical loans" affiliate site, so there is no company-controlled host left
+    to probe.
+  evidence:
+  - url: https://www.acureonpharma.com/
+    status: 200
+  - url: https://www.acureonpharma.com/.well-known/security.txt
+    status: 404
+  - url: https://www.acureonpharma.com/openapi.json
+    status: 404
+  - url: https://biopharmguy.com/company.php/Acureon%20Pharmaceuticals
+    status: 200
+  - url: https://data.sec.gov/submissions/CIK0001365869.json
+    status: 200
+  checked: '2026-09-06'
